@@ -12,7 +12,7 @@ import orderRoutes from "./routes/orderRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import morgan from "morgan";
 
-dotenv.config({path:"backend/config/config.env"});
+dotenv.config({path:"config/config.env"});
 
 connectDB();
 
