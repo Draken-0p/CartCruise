@@ -1,0 +1,102 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  text-align: left;
+  padding: 0;
+}
+.img_section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: start;
+  padding: 2rem;
+  width: 45%;
+  gap: 2rem;
+}
+.all_img {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.dis_section {
+  width: 47%;
+  padding: 2rem;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: normal;
+}
+.price {
+  color: black;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.para {
+  font-size: 18px;
+  max-width: 85%;
+  margin: 8px 0;
+}
+.css-11yukd5-MuiTabs-indicator {
+  background-color: black !important;
+}
+.css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: black !important;
+}
+.qty_btn {
+  border: 4px;
+  display: flex;
+  gap: 4px;
+  border: 1px solid #0a0e3c;
+  align-items: center;
+  gap: 15px;
+  padding: 11px;
+}
+.btn {
+  display: flex;
+  gap: 2rem;
+}
+.btn__s {
+  color: #0a0e3c;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.btn__s:hover {
+  cursor: pointer;
+}
+.tabs {
+  margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+  }
+  .img_section {
+    gap: 2rem;
+    padding: 0;
+    width: 100%;
+  }
+  .all_img {
+    flex-direction: row;
+    gap: 0;
+  }
+  .dis_section {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+.para {
+  height: 135px;
+}
